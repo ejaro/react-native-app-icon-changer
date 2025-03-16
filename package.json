@@ -59,7 +59,7 @@
     "type": "git",
     "url": "git+https://github.com/ejaro/react-native-app-icon-changer.git"
   },
-  "author": "Nakul Sharma <nakulsharma.1296@gmail.com> (https://github.com/nakul1296)",
+  "author": "Nakul Sharma <n.sharma@ejaro.com> (https://github.com/nakul1296)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ejaro/react-native-app-icon-changer/issues"
@@ -90,8 +90,7 @@
     "typescript": "^5.2.2"
   },
   "resolutions": {
-    "@types/react": "^18.2.44",
-    "@evilmartians/lefthook": "0.0.0"
+    "@types/react": "^18.2.44"
   },
   "peerDependencies": {
     "react": "*",
