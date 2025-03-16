@@ -6,20 +6,21 @@
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
-  "types": "./lib/typescript/module/src/index.d.ts",
+  "types": "./index.d.ts",
   "exports": {
     ".": {
       "import": {
-        "types": "./lib/typescript/module/src/index.d.ts",
+        "types": "./index.d.ts",
         "default": "./lib/module/index.js"
       },
       "require": {
-        "types": "./lib/typescript/commonjs/src/index.d.ts",
+        "types": "./index.d.ts",
         "default": "./lib/commonjs/index.js"
       }
     }
   },
   "files": [
+    "index.d.ts",
     "src",
     "lib",
     "android",
@@ -55,14 +56,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nakul1296/react-native-app-icon-changer.git"
+    "url": "git+https://github.com/ejaro/react-native-app-icon-changer.git"
   },
   "author": "Nakul Sharma <nakulsharma.1296@gmail.com> (https://github.com/nakul1296)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nakul1296/react-native-app-icon-changer/issues"
+    "url": "https://github.com/ejaro/react-native-app-icon-changer/issues"
   },
-  "homepage": "https://github.com/nakul1296/react-native-app-icon-changer#readme",
+  "homepage": "https://github.com/ejaro/react-native-app-icon-changer#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

@@ -1,5 +1,5 @@
 [![npm version](https://badge.fury.io/js/react-native-app-icon-changer.svg)](https://badge.fury.io/js/react-native-app-icon-changer)
-![GitHub stars](https://img.shields.io/github/stars/FerhatAdibelli0/react-native-app-icon-changer?style=social)
+![GitHub stars](https://img.shields.io/github/stars/ejaro/react-native-app-icon-changer?style=social)
 
 # React Native App Icon Changer
 
