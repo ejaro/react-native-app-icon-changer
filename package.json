@@ -7,7 +7,6 @@
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
-  "type": "module",
   "types": "./index.d.ts",
   "exports": {
     ".": {
@@ -54,12 +53,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android",
-    "react-native-app-icon-changer"
+    "android"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ejaro/react-native-app-icon-changer.git"
+    "url": "git+https://github.com/ejaro/react-native-app-icon-changer.git"
   },
   "author": "Nakul Sharma <n.sharma@ejaro.com> (https://github.com/ejaro)",
   "license": "MIT",
@@ -68,7 +66,6 @@
   },
   "homepage": "https://github.com/ejaro/react-native-app-icon-changer#readme",
   "publishConfig": {
-    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
